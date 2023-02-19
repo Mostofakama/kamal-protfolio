@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     background: url(image/top-banner.png);
     background-repeat: no-repeat;
     font-family: 'Ubuntu', sans-serif;
@@ -57,4 +58,123 @@ body {
 
 .header-area img {
     width: 80%;
+}
+
+/* center section ar kaj */
+.center-section {
+    display: flex;
+    background: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.center-area {
+    width: 48%;
+    margin: 20px auto;
+    padding-right: 85px;
+}
+
+.center-area img {
+    width: 80%;
+}
+
+.header-area h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.center-area h4 span {
+    color: #ffb900;
+    font-size: 30px;
+}
+
+
+.center-area h4 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+
+
+.center-area a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background: brown;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+
+.center-area p {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10px 0px;
+    line-height: 30px;
+}
+
+/* footer area desing */
+.footer-section {
+    display: flex;
+    background: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 62px;
+}
+
+.footer-area {
+    width: 40%;
+    background: rgba(100, 100, 100, 0.5);
+    border-left: 5px solid brown;
+    border-radius: 9px;
+    height: 250px;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px #000000;
+}
+
+.footer-area h2 {
+    font-size: 33px;
+    font-weight: 600;
+    margin: 10px 50px;
+
+
+}
+
+.footer-area h5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #dda50a;
+    margin: 10px 50px;
+
+
+}
+
+.footer-area p {
+    font-size: 18px;
+    font-weight: 200;
+    padding: 0px 50px;
+    text-align: justify;
+
+
+}
+
+.para p {
+    font-size: 14px;
+    margin-top: 160px;
+
+    text-align: center;
 }
